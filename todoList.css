@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #302f2f;
+}
+.itemsContainer{
+    padding-inline: 10px;
+}
+.inputWrapper {
+    display: flex;
+    padding: 5px;
+    gap: 2;
+
+}
+.inputWrapper input{
+    flex: 1;
+}
+
+body {
+    background-color:#ccc;
+}
+
+.form {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.303);
+    width: 350px;
+    height: 450px;
+    background-color: #f7f5f5;
+    margin: 25px auto;
+    border-radius: 15px;
+    
+}
+
+input {
+    border-radius: 8px;
+    width: 180px;
+    height: 40px;
+    border: none;
+}
+
+button {
+    background-color: #ccc;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 40px;
+}
+
+.listBtn {
+    margin: 10px 0 0 130px;
+}
+.listItems {
+    list-style: none;
+}
+
+.itemRow {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding-inline: 5px;
+    height: 30px;
+}
+.itemRow input{
+    width: 20px;
+    height: 20px;
+}
+.itemRow button {
+    background-color: #d34040;
+    color: #fff;
+    width: 20px;
+    margin-left:  auto;
+    height: 20px;
+}
+.itemRow.checked {
+    text-decoration: line-through;
+    color: #999;
+    background-color: #c1ffc1;
+    border-bottom: 1px solid #ccc;
+}
